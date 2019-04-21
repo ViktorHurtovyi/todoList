@@ -1,0 +1,26 @@
+.todo-item {
+  font-size: 24px;
+  border-bottom: 1px solid gray;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px 0 60px;
+  cursor: pointer;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+.completed{
+  text-decoration: line-through;
+  color: #ccc;
+}
+.fa-check-circle {
+  color: #ccc;
+}
+
+.mark {
+  position: absolute;
+  left: 20px;
+}
+
